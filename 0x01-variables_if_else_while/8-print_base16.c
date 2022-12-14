@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - print the letters of the alphabet
  *
@@ -9,21 +10,17 @@
 
 int main(void)
 {
-	int i = 97;
-	int j = 10;
+	int i = 0;
 
-	while (i < 123)
+	while (i < 48)
 	{
-		putchar(i);
+		if (i < 10)
+			putchar(i + '0');
+
+		else if (i > 41)
+			putchar(i - 10 + 'A');
 		i++;
 	}
-
-	while (j < 16)
-	{
-		putchar(j);
-		j++;
-	}
-
 	putchar(10);
 
 	return (0);
