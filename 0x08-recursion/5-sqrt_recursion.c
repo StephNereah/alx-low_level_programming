@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * _sqrtcheck - checks if square root of the number exists
+ * _sqrtcheck - checks if sqrt of number exists 
  *
  * @num: integer
  * @sqrt: integer
  *
- * return: int
+ * return: sqrt of number ot -1 for error.
  */
 
 int _sqrtcheck(int num, int sqrt)
