@@ -11,11 +11,11 @@
 
 int _sqrtcheck(int num, int sqrt)
 {
-	if ((sqrt * sqrt)== num)
+	if ((sqrt * sqrt) == num)
 	{
 		return (sqrt);
 	}
-	else if ((sqrt * sqrt)> num)
+	else if ((sqrt * sqrt) > num)
 	{
 		return (-1);
 	}
