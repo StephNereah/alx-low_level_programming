@@ -2,10 +2,10 @@
 
 /**
  * binary_to_uint -  converts a binary number to an unsigned int
+ *
  * @b: is a pointer to a string
  *
- * Return: converted number or 0 if one or more chars in the string b,
- * that is not 0 or 1
+ * Return: converted number or else 0
  *
  */
 
